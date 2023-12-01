@@ -1,10 +1,8 @@
 package animal;
 
-import animal.Thinkable;
+public class Human extends Animal implements Thinkable{
 
-public class Human extends Animal {
-
- // フィールド
+    // フィールド
     private String hobby; // 趣味
 
     // 引数なしのコンストラクタ
@@ -17,7 +15,7 @@ public class Human extends Animal {
         super.setAge(age);
         this.setHobby(hobby);
     }
-
+    @Override
     // 趣味のメソッド
      public void think() {
         System.out.println( "私は"+ this.getHobby() + "について考えています。");

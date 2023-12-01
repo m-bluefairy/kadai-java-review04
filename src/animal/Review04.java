@@ -1,5 +1,4 @@
 package animal;
-import animal.Thinkable;
 
 public class Review04 {
 

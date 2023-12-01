@@ -1,7 +1,5 @@
 package animal;
 
-import animal.Thinkable;
-
 public class Animal {
     // フィールド
     private String fullName; //名前
